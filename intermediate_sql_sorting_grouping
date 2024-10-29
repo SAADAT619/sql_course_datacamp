@@ -1,0 +1,4 @@
+-- Select name from people and sort alphabetically
+SELECT name 
+FROM people
+ORDER BY name;
