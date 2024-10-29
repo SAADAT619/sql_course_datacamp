@@ -13,3 +13,10 @@ SELECT name
 FROM people
 -- Select names that don't start with A
 WHERE name NOT LIKE 'A%'
+
+
+-- Find the title and release_year for all films over two hours in length released in 1990 and 2000
+SELECT title, release_year
+FROM films
+WHERE release_year IN (1990,2000)
+AND duration > 120
