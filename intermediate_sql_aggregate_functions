@@ -1,0 +1,3 @@
+-- Query the sum of film durations
+SELECT SUM(duration) AS total_duration
+FROM films
