@@ -30,6 +30,10 @@ SELECT MIN(gross) AS lowest_gross
 FROM films
 WHERE release_year = '1994';
 
+
+-- Calculate the title and duration_hours from films
+SELECT title, (duration / 60.0) AS duration_hours
+FROM films;
 -- Calculate the highest gross film released between 2000-2012
 SELECT MAX(gross) AS highest_gross
 FROM films
