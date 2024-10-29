@@ -7,3 +7,8 @@ ORDER BY name;
 SELECT title, duration
 FROM films
 ORDER BY duration DESC
+
+-- Select the release year, duration, and title sorted by release year and duration
+SELECT release_year, duration, title
+FROM films
+ORDER BY release_year, duration
